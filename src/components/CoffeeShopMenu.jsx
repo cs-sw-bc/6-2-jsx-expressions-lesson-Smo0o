@@ -60,13 +60,13 @@ function CoffeeShopMenu() {
       <h2>📋 Menu</h2>
       
       <div style={{ border: "1px solid #ddd", padding: "10px", margin: "10px 0" }}>
-        <h3>___ (___)</h3>
-        <p>Price: $___</p>
+        <h3>{coffee.name} ({coffee.size})</h3>
+        <p>Price: ${coffee.price.toFixed(2)}</p>
       </div>
       
       <div style={{ border: "1px solid #ddd", padding: "10px", margin: "10px 0" }}>
-        <h3>___ </h3>
-        <p>Price: $___</p>
+        <h3>{pastry.name} {pastry.size} </h3>
+        <p>Price: $</p>
         <p style={{ fontSize: "12px", color: "gray" }}>___ calories</p>
       </div>
       
